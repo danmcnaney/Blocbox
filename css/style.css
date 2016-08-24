@@ -47,11 +47,28 @@ html, body{
    margin:0 2% 20px;
  }
 
+ .hero img {
+  max-width: 100%;
+  height: auto;
+ }
+
 @media (min-width: 768px) {
    .container {
      width: 750px;
    }
  }
+
+ @media (max-width: 767px) {
+  .one-half {
+    text-align: center;
+  }
+}
+
+@media (min-width: 768px) {
+  .one-half {
+    width:46%;
+  }
+}
 
 @media (min-width: 992px) {
    .container {
@@ -123,7 +140,6 @@ html, body{
  header nav ul > li.btn-outline:hover > a {
    color:#34495E;
  }
-
  header .hero {
    text-align: center;
    display:block;
@@ -143,6 +159,19 @@ html, body{
  header .hero img {
    display: block;
    margin:3em auto 0;
+ }
+
+ @media(max-width: 767px) {
+   header nav ul {
+   float:none;
+   -webkit-padding-start: 15px;
+   }
+ }
+
+ @media(max-width: 991px) {
+  header .hero h1 {
+   margin:0px 0 0;
+   }
  }
 
   /* BUTTONS */
@@ -208,10 +237,7 @@ html, body{
    position: relative;
    margin-top: 25px;
  }
- .box.middle {
-   min-height: 485px;
-   margin-top:0px;
- }
+
  .box h3 {
    font-family: "Lato", Helvetica, Arial, sans-serif;
    font-weight: 600;
@@ -262,6 +288,12 @@ html, body{
    font-style:italic;
  }
 
+  @media(min-width: 992px) {
+    .box.middle {
+     min-height: 485px;
+     margin-top:0px;
+   }
+ }
   /* TESTIMONIALS */
  .testimonials {
    padding:4em 0;
@@ -313,10 +345,11 @@ html, body{
    margin-top: 30px;
  }
 
- .testimonials li:nth-child(even) {
-   margin-top:20px;
+ @media(min-width: 992px) {
+   .testimonials li:nth-child(even) {
+    margin-top:20px;
+   }
  }
-
  /* FOOTER */
  footer {
    background-color: #34495E;
@@ -350,6 +383,11 @@ html, body{
    margin: 0 auto;
    display: block;
  }
+ @media (max-width: 991px) {
+  footer nav ul {
+    -webkit-padding-start: 0px;
+  }
+ }
 
  @media (min-width: 992px){
    footer{
@@ -364,8 +402,5 @@ html, body{
    }
    footer .right-footer-block {
      background-color: #3498DB;
-   }
-   footer .logo{
-     padding: 2em 0 2em 1.5em;
    }
  }
