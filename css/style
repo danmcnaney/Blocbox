@@ -357,5 +357,8 @@ html, body{
    footer .logo{
      padding: 2em 0 2em 1.5em;
    }
+<<<<<<< HEAD:css/style
+>>>>>>> e4db15a... Checkpoint-32-completed:css/style.css
+=======
 >>>>>>> e4db15a... Checkpoint-32-completed:css/style.css
  }
