@@ -459,6 +459,9 @@ html, body{
    text-align: center;
    margin-right:8px;
  }
+ .left-nav .items ul li .active {
+   color:#2FCC71;
+ }
 
  /* LEFT NAVBAR SETTINGS */
  .left-nav .settings {
