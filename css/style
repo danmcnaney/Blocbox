@@ -339,6 +339,20 @@ html, body{
    margin: 0 auto;
    display: block;
  }
+<<<<<<< HEAD:css/style
+=======
+ @media (max-width: 991px) {
+  footer nav ul {
+    -webkit-padding-start: 0px;
+  }
+  .left-footer-block.one-third {
+    margin: 0px;
+  }
+  .link-block.middle-footer-block.one-third {
+    margin: 0px;
+  }
+ }
+>>>>>>> 08f8ec1... Checkpoint-33-completed:css/style.css
 
  @media (min-width: 992px){
    footer{
