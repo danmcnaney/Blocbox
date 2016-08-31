@@ -670,3 +670,34 @@ html, body{
    line-height: 18px;
    margin:5px 0 0;
  }
+
+ /* Account Settings */
+ .acct-settings.dropit {
+  margin: 2px 0 0;
+ }
+
+ .acct-settings.dropit .dropit-submenu {
+  position: absolute;
+  top: auto;
+  right: 0px;
+  bottom: 100%;
+  min-width: 143px;
+ }
+
+ .acct-settings.dropit .dropit-open .dropit-submenu:after {
+  border-width: 8px 8px 0;
+  z-index: 1;
+  top: auto;
+  bottom: -8px;
+  right: 10px;
+ }
+ .acct-settings ul {
+  text-align: left;
+ }
+
+
+  .acct-settings .dropit-submenu a {
+  color:#34495E;
+  margin-bottom:20px;
+  float: none;
+ }
